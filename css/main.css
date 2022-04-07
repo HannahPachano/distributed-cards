@@ -29,6 +29,7 @@ ol {
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
   list-style: none;
+  padding: .75em;
 }
 a {
   color: #fff;
