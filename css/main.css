@@ -13,6 +13,12 @@ body {
   margin: 0;
 }
 
+.banner {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
 h1, h2 {
   color: #623b0c;
   font-family: "Denk One", sans-serif;
@@ -24,11 +30,13 @@ ol {
   grid-gap: 1rem;
   list-style: none;
 }
+a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #623b0c;
+  border: 2px solid #623b0c;
+  border-radius: 6px;
 
-.banner {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
 }
 
 li:nth-child(1) {
