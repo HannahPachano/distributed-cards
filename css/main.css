@@ -11,6 +11,13 @@ html {
 
 body {
   margin: 0;
+  text-align: left;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+h1 {
+  padding-left: .5em;
 }
 
 .banner {
@@ -29,8 +36,9 @@ ol {
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
   list-style: none;
-  padding: .75em;
+  padding: .6em;
 }
+
 a {
   color: #fff;
   text-decoration: none;
